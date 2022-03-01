@@ -6,8 +6,5 @@
 </h1>
 
 
-<a href="https://github.com/ATHIF-EFX/EvaMaria-ExtraFeatures">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-</a>
-</p>
-</details>
+### Deploy to Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ATHIF-EFX/EvaMaria-ExtraFeatures)
