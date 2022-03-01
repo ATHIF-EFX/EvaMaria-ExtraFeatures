@@ -74,7 +74,7 @@ these are the extra features of Eva Maria
 • /info  - <code>get information about a user.</code>
 • /imdb  - <code>get the film information from IMDb source.</code>
 • /search  - <code>get the film information from various sources.</code>"""
-    APPROVE_TXT = """Here is the help for the <b>Approvals</b> module:
+   APPROVE_TXT = """Here is the help for the <b>Approvals</b> module:
 
 Sometimes, you might trust a user not to send unwanted content.
 Maybe not enough to make them admin, but you might be ok with locks, blacklists, and antiflood not applying to them.
@@ -90,6 +90,19 @@ That's what approvals are for - approve of trustworthy users to allow them to se
 
 <b>Group Owner Commands</b>:
 × /unapproveall: Unapprove ALL users in a chat. This cannot be undone."""
+    WELCOME_TXT ="""Here is the help for the <b>Greetings</b> module:
+
+Welcome new members to your groups or say Goodbye after they leave!
+
+<b>Admin Commands</b>:
+× /setwelcome <reply/text>: Sets welcome text for group.
+× /welcome <yes/no/on/off>: Enables or Disables welcome setting for group.
+× /resetwelcome: Resets the welcome message to default.
+× /setgoodbye <reply/text>: Sets goodbye text for group.
+× /goodbye <yes/no/on/off>: Enables or Disables goodbye setting for group.
+× /resetgoodbye: Resets the goodbye message to default.
+× /cleanservice <yes/no/on/off>: Delete all service messages such as 'x joined the group' notification.
+× /cleanwelcome <yes/no/on/off>: Delete the old welcome message, whenever a new member joins."""
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
 <b>NOTE:</b>
