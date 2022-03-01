@@ -2,13 +2,13 @@ from pyrogram import filters
 from pyrogram.errors import PeerIdInvalid, RPCError, UserNotParticipant
 from pyrogram.types import CallbackQuery, ChatPermissions, Message
 
-from alita import LOGGER, SUPPORT_GROUP
-from alita.bot_class import Alita
-from alita.database.approve_db import Approve
-from alita.utils.custom_filters import admin_filter, command, owner_filter
-from alita.utils.extract_user import extract_user
-from alita.utils.kbhelpers import ikb
-from alita.utils.parser import mention_html
+from Alita import LOGGER, SUPPORT_GROUP
+from Alita.bot_class import Alita
+from Alita.database.approve_db import Approve
+from Alita.utils.custom_filters import admin_filter, command, owner_filter
+from Alita.utils.extract_user import extract_user
+from Alita.utils.kbhelpers import ikb
+from Alita.utils.parser import mention_html
 
 
 @Alita.on_message(command("approve") & admin_filter)
