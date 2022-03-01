@@ -74,6 +74,22 @@ these are the extra features of Eva Maria
 • /info  - <code>get information about a user.</code>
 • /imdb  - <code>get the film information from IMDb source.</code>
 • /search  - <code>get the film information from various sources.</code>"""
+    APPROVE_TXT = """Here is the help for the <b>Approvals</b> module:
+
+Sometimes, you might trust a user not to send unwanted content.
+Maybe not enough to make them admin, but you might be ok with locks, blacklists, and antiflood not applying to them.
+That's what approvals are for - approve of trustworthy users to allow them to send
+
+<b>User commands</b>:
+× /approval: Check a user's approval status in this chat.
+
+<b>Admin Commands</b>:
+× /approve: Approve of a user. Locks, blacklists, and antiflood won't apply to them anymore.
+× /unapprove: Unapprove of a user. They will now be subject to locks, blacklists, and antiflood again.
+× /approved: List all approved users.
+
+<b>Group Owner Commands</b>:
+× /unapproveall: Unapprove ALL users in a chat. This cannot be undone."""
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
 <b>NOTE:</b>
